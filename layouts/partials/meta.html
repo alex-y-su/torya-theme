@@ -1,0 +1,9 @@
+    <meta property="og:type" content="website">
+    <meta name="description"
+        content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    {{ with site.Params.twitterDescription }}<meta name="twitter:description" content="{{ . }}">{{ end }}
+    {{ with site.Params.twitterImage }}<meta name="twitter:image" content="{{ . }}">{{ end }}
+    {{ with site.Params.twitterCard }}<meta name="twitter:card" content="{{ . }}">{{ end }}
+    {{ with site.Params.twitterTitle }}<meta name="twitter:title" content="{{ . }}">{{ end }}
+    {{ with site.Params.yandexVerification }}<meta name="yandex-verification" content="{{ . }}">{{ end }}
+    {{ with site.Params.ogImage }}<meta property="og:image" content="{{ . }}">{{ end }}

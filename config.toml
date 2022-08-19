@@ -32,3 +32,14 @@ theme = "torya"
   link = "plugins/slick/slick.min.js"
   [[params.plugins.js]]
   link = "plugins/google-map/gmap.js"
+
+#################### default parameters ################################
+[params]
+yandexMetrika = "84271363"
+yandexVerification = "073b0fab8d84d1e1"
+
+twitterDescription = "Добавляю жизни на поверхности. Рисую на автомобилях, стенах, холстах. Индивидуально. С душой."
+twitterImage = "images/portfolio/9-image.jpg"
+twitterCard = "summary_large_image"
+twitterTitle = "Роспись стен, барельеф, аэрография"
+ogImage = "images/portfolio/9-image.jpg"
