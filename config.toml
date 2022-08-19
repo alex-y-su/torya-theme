@@ -2,7 +2,7 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'Torya | Hugo Site'
-theme = "torya"
+#theme = "torya"
 
 ############################# Plugins ##############################
 [params.plugins]
@@ -15,13 +15,13 @@ theme = "torya"
   [[params.plugins.css]]
   link = "https://embed.typeform.com/next/css/widget.css"
   [[params.plugins.css]]
-  link = "css/bootstrap.min.css"
+  link = "plugins/css/bootstrap.min.css"
   [[params.plugins.css]]
-  link = "css/Lightbox-Gallery.css"
+  link = "plugins/css/Lightbox-Gallery.css"
   [[params.plugins.css]]
-  link = "grid-gallery.min.css"
+  link = "plugins/css/grid-gallery.min.css"
   [[params.plugins.css]]
-  link = "css/Bold-BS4-Header-with-HTML5-Video-Background.css"
+  link = "plugins/css/Bold-BS4-Header-with-HTML5-Video-Background.css"
 
   # JS Plugins
   [[params.plugins.js]]

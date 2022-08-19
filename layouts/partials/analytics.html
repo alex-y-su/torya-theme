@@ -1,5 +1,5 @@
 {{ if .Site.Params.yandexMetrika }}
-{{ "<!-- Yandex.Metrika counter -->" | safeHTML }}
+    {{ "<!-- Yandex.Metrika counter -->" | safeHTML }}
     <script type="text/javascript">
         (function (m, e, t, r, i, k, a) {
             m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
@@ -11,7 +11,7 @@
             trackLinks: true,
             accurateTrackBounce: true
         });
-  </script>
-{{ "<!-- /Yandex.Metrika counter -->" | safeHTML }}
+    </script>
+    {{ "<!-- /Yandex.Metrika counter -->" | safeHTML -}}
 {{ end }}
 

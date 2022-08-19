@@ -5,5 +5,5 @@
     {{ block "head/meta" .  }}{{ partial "meta.html" .  }}{{ end  }}
     {{ block "head/favicons" .  }}{{ partial "favicons.html" .  }}{{ end  }}
     {{ block "head/stylesheet" .  }}{{ partial "stylesheet.html" .  }}{{ end  }}
-    {{ block "head/analytics" .  }}{{ partial "analytics.html" .  }}{{ end  }}
+    {{- block "head/analytics" .  }}{{ partial "analytics.html" .  }}{{ end  -}}
 </head>
