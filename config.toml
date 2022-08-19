@@ -1,0 +1,34 @@
+######################## default configuration ####################
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Torya | Hugo Site'
+theme = "torya"
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  [[params.plugins.css]]
+  link = "https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css"
+  [[params.plugins.css]]
+  link = "https://embed.typeform.com/next/css/widget.css"
+  [[params.plugins.css]]
+  link = "css/bootstrap.min.css"
+  [[params.plugins.css]]
+  link = "css/Lightbox-Gallery.css"
+  [[params.plugins.css]]
+  link = "grid-gallery.min.css"
+  [[params.plugins.css]]
+  link = "css/Bold-BS4-Header-with-HTML5-Video-Background.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  link = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  link = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  link = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  link = "plugins/google-map/gmap.js"
