@@ -2,7 +2,7 @@
 baseURL = '/'
 languageCode = 'ru'
 title = 'Torya - роспись, барельеф, аэрография | Hugo Site'
-#theme = "torya"
+theme = "torya"
 
 ############################# Plugins ##############################
 [params.plugins]
