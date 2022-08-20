@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = '/'
-languageCode = 'en-us'
-title = 'Torya | Hugo Site'
+languageCode = 'ru'
+title = 'Torya - роспись, барельеф, аэрография | Hugo Site'
 #theme = "torya"
 
 ############################# Plugins ##############################
@@ -46,6 +46,7 @@ twitterDescription = "Добавляю жизни на поверхности. �
 twitterImage = "images/portfolio/9-image.jpg"
 twitterCard = "summary_large_image"
 twitterTitle = "Роспись стен, барельеф, аэрография"
+
 ogImage = "images/portfolio/9-image.jpg"
 
 navbarBrand = "Torya.art"
