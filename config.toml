@@ -85,3 +85,14 @@ copyright = "Copyright &copy;&nbsp;Torya 2022"
   name = "История"
   URL = "#about"
   weight = 3
+
+
+############################## social ###############################
+[social]
+  instagram = "torya.art"
+  zen = "6122ad20349c522b4deb02d9"
+  whatsapp = "79210245752"
+  whatsapptxt = "Рисуете?"
+  email = "hello@torya.art"
+  youtube = "channel/UCW0n0GlCznwJX_JzLmTRaTQ"
+

@@ -1,11 +1,14 @@
         <section class="text-center content-section contact s_black-text" id="contact">
             <div class="container">
-                <h2>соц сети</h2>
+                {{ with site.GetPage "/contact.md"  }}{{ .Content  }}{{ end  }}
                 <div class="socials">
-                    <a href="http://instagram.com/torya.art/" target="_blank"><i class="fa fa-instagram fa-fw"></i>
+                    {{ with .Site.Social.instagram  }}
+                    <a href="http://instagram.com/{{.}}/" target="_blank"><i class="fa fa-instagram fa-fw"></i>
                         <p>Instagram</p>
                     </a>
-                    <a href="https://zen.yandex.ru/id/6122ad20349c522b4deb02d9" target="_blank">
+                    {{ end  }}
+                    {{ with .Site.Social.zen  }}
+                    <a href="https://zen.yandex.ru/id/{{.}}" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
                             <path fill="#636363" class='s_hover-green'
                                 d="M16.7 16.7c-2.2 2.27-2.36 5.1-2.55 11.3 5.78 0 9.77-.02 11.83-2.02 2-2.06 2.02-6.24 2.02-11.83-6.2.2-9.03.35-11.3 2.55M0 14.15c0 5.59.02 9.77 2.02 11.83 2.06 2 6.05 2.02 11.83 2.02-.2-6.2-.35-9.03-2.55-11.3-2.27-2.2-5.1-2.36-11.3-2.55M13.85 0C8.08 0 4.08.02 2.02 2.02.02 4.08 0 8.26 0 13.85c6.2-.2 9.03-.35 11.3-2.55 2.2-2.27 2.36-5.1 2.55-11.3m2.85 11.3C14.5 9.03 14.34 6.2 14.15 0c5.78 0 9.77.02 11.83 2.02 2 2.06 2.02 6.24 2.02 11.83-6.2-.2-9.03-.35-11.3-2.55">
@@ -16,17 +19,24 @@
                         </svg>
                         <p>zen</p>
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=79210245752&amp;text=Рисуете?" target="_blank"><i
+                    {{ end  }}
+                    {{ with .Site.Social.whatsapp }}
+                    <a href="https://api.whatsapp.com/send?phone={{.}}&amp;text={{ site.Social.whatsapptxt | safeHTMLAttr }}" target="_blank"><i
                             class="fa fa-whatsapp fa-fw"></i>
                         <p>whatsapp</p>
                     </a>
-                    <a href="mailto:hello@torya.art" target="_blank"><i class="fa fa-envelope-o fa-fw"></i>
+                    {{ end  }}
+                    {{ with .Site.Social.email  }}
+                    <a href="mailto:{{.}}" target="_blank"><i class="fa fa-envelope-o fa-fw"></i>
                         <p>email</p>
                     </a>
-                    <a href="https://www.youtube.com/channel/UCW0n0GlCznwJX_JzLmTRaTQ?" target="_blank"><i
+                    {{ end  }}
+                    {{ with .Site.Social.youtube  }}
+                    <a href="https://www.youtube.com/{{.}}" target="_blank"><i
                             class="fa fa-youtube"></i>
                         <p>youtube</p>
                     </a>
+                    {{ end  }}
 
 
                 </div>
